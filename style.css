@@ -1,0 +1,41 @@
+body
+{
+       font-family: 'Kaushan Script', cursive;
+}
+
+h1
+{
+    font-size: 60px;
+}
+
+.h1color
+{
+    color: aquamarine;
+}
+
+section
+{
+    display: flex;
+}
+
+.half-width
+{
+    width: 50%; 
+    padding-left: 5%;
+}
+
+.half-width img
+{
+    width: 90%;
+}
+
+.link-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 255, 221), magenta );
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
