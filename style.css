@@ -1,6 +1,7 @@
 body
 {
        font-family: 'Kaushan Script', cursive;
+       margin: 0;
 }
 
 h1
@@ -32,10 +33,15 @@ section
 .link-button
 {
     text-decoration: none;
-    background-image: linear-gradient(rgb(0, 255, 221), magenta );
-    color: white;
+    background-image: linear-gradient(rgb(255, 145, 0), rgba(187, 42, 62, 0.315) );
+    color: rgb(255, 255, 255);
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+}
 
+.top-banner
+{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
